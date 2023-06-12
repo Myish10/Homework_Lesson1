@@ -5,10 +5,19 @@
 Console.WriteLine("Введите целое число: ");
 int num = int.Parse(Console.ReadLine());
 int index = 2;
-Console.Write(index);
+if (index <= num)
+{
+    Console.Write(index);
+}
+else
+{
+    Console.WriteLine("Четных чисел нет");
+}
 while (index <= num - 2)
 {
-    Console.Write(", ");
-    Console.Write(index + 2);
+    // Console.Write(", ");
+    // Console.Write(index + 2);
+    // index = index + 2;
     index = index + 2;
+    Console.Write(", " +index);
 }
