@@ -15,9 +15,6 @@ else
 }
 while (index <= num - 2)
 {
-    // Console.Write(", ");
-    // Console.Write(index + 2);
-    // index = index + 2;
     index = index + 2;
     Console.Write(", " +index);
 }
